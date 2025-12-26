@@ -19,6 +19,7 @@ export const MyForm = () => {
     })
     return (
         <div>
+            <h1>Formik and Yup</h1>
             <form onSubmit={formik.handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor='name'>Name</label>
